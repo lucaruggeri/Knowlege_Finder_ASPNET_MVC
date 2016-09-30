@@ -1,0 +1,15 @@
+﻿@*@ViewBag.videosFound*@
+
+<h1>Knowledge Finder</h1>
+
+<p>
+    Your local videos:
+</p>
+
+<ul>
+    @foreach (string v in ViewBag.videosFound)
+    {
+        <li>@v</li>
+    }
+</ul>
+
